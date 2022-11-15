@@ -1,0 +1,44 @@
+<div class="main-container">
+    <div class="menu-header">
+        <div class="left-header">
+            <div class="nav-link">
+                <a href="">Admin</a>
+                <span class="link-arrow">&nbsp;>&nbsp;</span>
+                <a href="">Billing</a>
+            </div>
+            <h1>Wallets</h1>
+        </div>
+        <div class="right-header">
+            <button class="btn add-btn" (click)="addBuget()">Add budget</button>
+            <button class="btn transfer-btn">New transfer</button>
+            <button class="btn vert-btn" mat-icon-button aria-label="Example icon-button with a menu">
+                <span class="material-icons">
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="wallet-content">
+        <div class="warning-msg">
+            <h2> You need to complete your billing details and add a payment method before you can add budget.</h2>
+            <button class="btn update-btn">Update details</button>
+        </div>
+    </div>
+    <div class="wallet-balance">
+        <div class="wallet-img-div">
+           <img src="../../assets/icons/wallet_12.svg" alt="" srcset=""> 
+           <p>Main wallet</p>
+        </div>
+        <p class="europ-currency">&euro;0.00</p>
+    </div>
+    <div class="wallet-footer">
+        <div class="left-wallet-footer">
+            <img class="footer-wallet" src="../../assets/icons/wallet_12.svg" alt="" srcset="">
+            <img class="google-img" src="../../assets/images/Google_2015_logo.svg.webp" alt="" srcset="">
+            <p>Google Search, <span>WayMore</span></p>
+        </div>
+        <div class="right-wallet-footer">
+            <p class="ref">Refresh</p>
+            <p>&euro;0.00</p>
+        </div>
+    </div>
+</div>
